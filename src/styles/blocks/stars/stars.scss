@@ -6,7 +6,7 @@
   width: 16px;
   height: 16px;
 
-  background-image: url('../images/star.svg');
+  background-image: url('./../images/star.svg');
   background-repeat: no-repeat;
   background-position: center;
 
@@ -17,6 +17,6 @@
 
 @for $stars from 1 through 5 {
   .stars--#{$stars} .stars__star:nth-child(-n + #{$stars}) {
-    background-image: url('../images/star-active.svg');
+    background-image: url('./../images/star-active.svg');
   }
 }

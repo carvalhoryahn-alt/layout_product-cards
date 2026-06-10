@@ -1,7 +1,6 @@
-@import '../../variables';
-
 .card {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   width: 200px;
   padding: 32px 16px 16px;
   border-radius: 5px;
@@ -24,6 +23,7 @@
   }
 
   &__code {
+    width: 100%;
     margin: 0 0 16px;
     font-weight: 400;
     font-size: 10px;
@@ -32,15 +32,15 @@
   }
 
   &__reviews {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin: 0 0 24px;
   }
 
   &__price {
     display: flex;
-    align-items: center;
+    width: 100%;
     justify-content: space-between;
     margin: 0 0 16px;
   }
